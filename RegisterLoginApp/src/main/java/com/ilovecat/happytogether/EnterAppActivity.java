@@ -29,7 +29,7 @@ import com.ilovecat.happytogether.RegisterIdPassword.RegisterIdPasswordActivity;
 
 /**
  * <pre>
- * 1. 패키지명  : com.appmaker.gcmtest
+ * 1. 패키지명 : com.appmaker.gcmtest
  * 2. 타입명   :  EnterApp In EnterApp.java
  * 3. 작성일   : 2016. 5. 8. 오후 10:03:59
  * 4. 작성자   : dannykwon (dkkwon0228@gmail.com)
@@ -37,8 +37,8 @@ import com.ilovecat.happytogether.RegisterIdPassword.RegisterIdPasswordActivity;
  *           내부디비(SQLITE)의 adminkey_tb의 row의 갯수를 가져와서 내부변수 count에 할당한다.
  *           count가 0일 경우에는 RegisterIdPasswordActivity 호출한다.
  * 	     count가 1일 경우에는 내부디비의 adminkey_tb의 loginstate 필드의 값을 가져와서 내부변수 loginState에 할당한다.
- *            loginState의 값이 0일 경우, LoginActivity를 호출.
- *            loginState의 값이 1일 경우, MainActivity를 호출.
+ *           loginState의 값이 0일 경우, LoginActivity를 호출.
+ *           loginState의 값이 1일 경우, MainActivity를 호출.
  * </pre>
  */
 
