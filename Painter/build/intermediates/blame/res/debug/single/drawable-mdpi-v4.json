@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/res/merged/debug/drawable-mdpi-v4/img_a_inner.png",
+        "source": "/home/dannykwon/AndroidStudioProjects/Painter/res/drawable-mdpi/img_a_inner.png"
+    },
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/res/merged/debug/drawable-mdpi-v4/img_a.png",
+        "source": "/home/dannykwon/AndroidStudioProjects/Painter/res/drawable-mdpi/img_a.png"
+    },
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/home/dannykwon/AndroidStudioProjects/Painter/res/drawable-mdpi/ic_launcher.png"
+    }
+]

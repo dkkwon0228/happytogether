@@ -1,0 +1,49 @@
+[
+    {
+        "outputFile": "/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/build/intermediates/res/merged/debug/values-v16/values-v16.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 190
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values-v16/styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 197,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 195,
+                    "endLine": 7,
+                    "endColumn": 12,
+                    "endOffset": 330
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values-v16/styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 191
+                    }
+                }
+            }
+        ]
+    }
+]

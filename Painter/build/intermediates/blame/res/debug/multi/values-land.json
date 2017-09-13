@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/res/merged/debug/values-land/values-land.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 41,
+                    "endOffset": 92
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values-land/config.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 57,
+                        "endColumn": 38,
+                        "endOffset": 94
+                    }
+                }
+            }
+        ]
+    }
+]

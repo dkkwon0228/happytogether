@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+  <RelativeLayout android:layout_width="match_parent"
+                  android:layout_height="266dp"
+                  android:background="@drawable/main_shop_bg"
+                  android:gravity="center_horizontal" android:layout_marginTop="0dp">
+
+    <!--
+    <ImageView android:layout_width="132dp" android:layout_height="wrap_content"
+               android:src="@drawable/main_shop_title"
+               android:id="@+id/shoptitle" android:layout_centerHorizontal="true"
+               android:layout_marginTop="4dp"/>
+    <TextView
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:text="쿠폰을 발행해 보세요"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/shoptitle" android:gravity="center_horizontal"
+        android:textColor="#ffffff" android:textSize="10dp" android:layout_centerHorizontal="true"/>
+    -->
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="false"
+                  android:orientation="vertical"
+                  android:layout_above="@+id/regCoupon" android:layout_alignParentTop="true"
+                  android:layout_alignParentBottom="false"
+                  android:layout_alignParentStart="false" android:gravity="center_vertical">
+
+      <RelativeLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/shopRL" android:layout_marginTop="8dp">
+
+
+        <TextView
+            android:layout_width="200dp"
+
+            android:layout_height="wrap_content"
+            android:text="등록된 매장 사진"
+            android:id="@+id/tvTodayCouponCountShop"
+            android:textColor="#ffffff" android:textSize="14sp"
+            android:layout_marginTop="16dp" android:layout_marginLeft="28dp"
+            android:layout_alignParentLeft="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:id="@+id/tvTodayCouponCount"
+            android:textColor="#ffffff" android:textSize="34dp"
+            android:layout_alignParentLeft="false" android:layout_alignParentStart="false"
+            android:layout_toRightOf="@+id/tvTodayCouponCountShop" android:layout_alignParentRight="true"
+            android:gravity="right" android:layout_marginRight="28dp"/>
+
+      </RelativeLayout>
+
+      <RelativeLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/shopRL"
+                      android:id="@+id/shopRL123" android:layout_marginTop="-10dp">
+
+
+
+
+
+
+        <TextView
+            android:layout_width="200dp"
+
+            android:layout_height="wrap_content"
+            android:text="등록된 상품/메뉴/서비스"
+            android:id="@+id/tvTodayReplyMent"
+            android:textColor="#ffffff" android:textSize="14sp"
+            android:layout_marginTop="16dp" android:layout_marginLeft="28dp"
+            android:layout_alignParentRight="false" android:layout_alignParentEnd="false"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:id="@+id/tvTodayReplyCount"
+            android:textColor="#ffffff" android:textSize="34dp"
+            android:layout_alignParentLeft="false" android:layout_alignParentStart="false"
+            android:layout_toRightOf="@+id/tvTodayReplyMent" android:layout_alignParentRight="true"
+            android:layout_marginRight="28dp" android:gravity="right"/>
+
+      </RelativeLayout>
+
+      <RelativeLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/shopRL123"
+                      android:id="@+id/shopRL12223" android:layout_marginTop="-10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="대표 전화전호"
+            android:id="@+id/tvTotalCouponCountShop"
+            android:textColor="#ffffff" android:textSize="14sp"
+            android:layout_marginTop="16dp" android:layout_marginLeft="28dp"
+            android:layout_alignParentRight="false" android:layout_alignParentEnd="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="070-7777-7777"
+            android:id="@+id/textView75712"
+            android:textColor="#ffffff" android:textSize="28dp"
+            android:layout_alignParentLeft="false" android:layout_alignParentStart="false"
+            android:layout_toRightOf="@+id/tvTotalCouponCountShop"
+            android:gravity="right" android:layout_marginRight="28dp"
+            android:layout_alignParentRight="true"/>
+
+      </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@+id/shopRL12223"
+        android:id="@+id/regCoupon" android:gravity="bottom">
+
+      <Button
+          android:id="@+id/reg_next_button"
+          android:layout_width="match_parent"
+          android:layout_height="55dp"
+          android:layout_marginLeft="28dp"
+          android:layout_marginRight="28dp"
+          android:text="내 가게"
+          android:textColor="#ffffff"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          android:theme="@style/ShopButton"/>
+    </LinearLayout>
+
+
+
+
+  </RelativeLayout>
+
+
+</LinearLayout>

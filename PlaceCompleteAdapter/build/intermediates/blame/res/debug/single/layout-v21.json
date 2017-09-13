@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/happytogether/PlaceCompleteAdapter/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
+        "source": "/home/dannykwon/AndroidStudioProjects/happytogether/PlaceCompleteAdapter/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout-v21/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/android-play-places-master/PlaceCompleteAdapter/Application/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
+        "source": "/home/dannykwon/AndroidStudioProjects/android-play-places-master/PlaceCompleteAdapter/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout-v21/place_autocomplete_fragment.xml"
+    }
+]

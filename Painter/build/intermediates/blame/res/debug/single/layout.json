@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/res/merged/debug/layout/button_paint_spot.xml",
+        "source": "/home/dannykwon/AndroidStudioProjects/Painter/res/layout/button_paint_spot.xml"
+    },
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/res/merged/debug/layout/activity_play.xml",
+        "source": "/home/dannykwon/AndroidStudioProjects/Painter/res/layout/activity_play.xml"
+    }
+]

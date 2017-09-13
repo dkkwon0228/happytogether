@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:gravity="center_horizontal" >
+
+  <RelativeLayout
+      android:id="@+id/ImageViewForBackgroundLayout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginTop="60dp"
+      android:gravity="center_vertical"
+      android:visibility="visible" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ImageViewForBackgroundLayoutChild">
+
+      <ImageView
+          android:id="@+id/imageviewForBackground"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_above="@+id/menuviewBackground"
+          android:layout_gravity="center"
+          android:adjustViewBounds="true"
+          android:scaleType="fitCenter"
+          android:background="#FF000000"/>
+
+
+
+      <RelativeLayout
+          android:id="@+id/menuviewBackground"
+          android:layout_width="match_parent"
+          android:layout_height="80dp"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:layout_centerVertical="true"
+          android:layout_gravity="bottom"
+          android:background="#80333333"
+          android:gravity="center_vertical|center_horizontal" >
+
+        <Button
+            android:id="@+id/backgroundclose"
+            style="@style/ButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:layout_marginLeft="15dp"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:text="모두 삭제"
+            android:background="@drawable/btn_blue" />
+
+        <Button
+            android:id="@+id/background_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="선택"
+            android:textColor="#333333"
+            android:layout_toRightOf="@+id/backgroundclose"/>
+
+        <Button
+            android:id="@+id/backgroundsave"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dip"
+            android:text="적용"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:layout_toRightOf="@+id/background_show"/>
+      </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+  </RelativeLayout>
+
+  <!--
+
+  <RelativeLayout
+      android:id="@+id/backgroundMenuGalleryLayout"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_marginTop="60dp"
+      android:background="#FF000000"
+      android:gravity="center"
+      android:visibility="visible" >
+
+    <com.devsmart.android.ui.HorizontalListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ddd" />
+
+  </RelativeLayout>
+
+  -->
+
+  <RelativeLayout
+      android:id="@+id/backgroundGridLayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="60dp"
+      android:background="#ffffff"
+      android:gravity="center_horizontal"
+      android:visibility="visible" >
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:horizontalSpacing="4dip"
+        android:numColumns="4"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="4dip"
+        android:padding="4dip"
+        android:background="#ffffff"/>
+  </RelativeLayout>
+
+  <RelativeLayout
+      android:id="@+id/headviewBackground"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:background="#FF000000">
+    <TextView
+        android:id="@+id/HeaderMent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="배경화면 선택"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_marginTop="10dip"
+        android:layout_centerInParent="true"/>
+
+  </RelativeLayout>
+
+  <!--
+  <com.appmaker.gcmtest.localstikermain.StikerOverlayView
+      android:id="@+id/StikerOverlayView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+  -->
+
+</FrameLayout>
+

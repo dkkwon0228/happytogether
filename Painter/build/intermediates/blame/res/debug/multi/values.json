@@ -1,0 +1,412 @@
+[
+    {
+        "outputFile": "/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 42,
+                    "endOffset": 93
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/config.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 57,
+                        "endColumn": 39,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 98,
+                    "endColumn": 42,
+                    "endOffset": 136
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 57,
+                        "endColumn": 39,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 141,
+                    "endColumn": 50,
+                    "endOffset": 187
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 98,
+                        "endColumn": 47,
+                        "endOffset": 144
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 192,
+                    "endColumn": 41,
+                    "endOffset": 229
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/actions.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 57,
+                        "endColumn": 39,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 234,
+                    "endColumn": 42,
+                    "endOffset": 272
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/actions.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 98,
+                        "endColumn": 40,
+                        "endOffset": 137
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 277,
+                    "endColumn": 42,
+                    "endOffset": 315
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/actions.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 1,
+                        "startOffset": 140,
+                        "endColumn": 40,
+                        "endOffset": 179
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 320,
+                    "endColumn": 40,
+                    "endOffset": 356
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/actions.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 182,
+                        "endColumn": 38,
+                        "endOffset": 219
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 361,
+                    "endColumn": 40,
+                    "endOffset": 397
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/actions.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 1,
+                        "startOffset": 262,
+                        "endColumn": 38,
+                        "endOffset": 299
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 402,
+                    "endColumn": 40,
+                    "endOffset": 438
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/actions.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 1,
+                        "startOffset": 222,
+                        "endColumn": 38,
+                        "endOffset": 259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 443,
+                    "endColumn": 46,
+                    "endOffset": 485
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/actions.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 1,
+                        "startOffset": 305,
+                        "endColumn": 43,
+                        "endOffset": 347
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 490,
+                    "endColumn": 48,
+                    "endOffset": 534
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/actions.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 1,
+                        "startOffset": 350,
+                        "endColumn": 45,
+                        "endOffset": 394
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 539,
+                    "endColumn": 48,
+                    "endOffset": 583
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/actions.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 397,
+                        "endColumn": 45,
+                        "endOffset": 441
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 588,
+                    "endColumn": 44,
+                    "endOffset": 628
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/actions.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 1,
+                        "startOffset": 444,
+                        "endColumn": 41,
+                        "endOffset": 484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 633,
+                    "endColumn": 44,
+                    "endOffset": 673
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/actions.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 1,
+                        "startOffset": 530,
+                        "endColumn": 41,
+                        "endOffset": 570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 678,
+                    "endColumn": 44,
+                    "endOffset": 718
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/actions.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 1,
+                        "startOffset": 487,
+                        "endColumn": 41,
+                        "endOffset": 527
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 723,
+                    "endColumn": 44,
+                    "endOffset": 763
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 1,
+                        "startOffset": 17,
+                        "endColumn": 41,
+                        "endOffset": 57
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 768,
+                    "endColumn": 48,
+                    "endOffset": 812
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 1,
+                        "startOffset": 104,
+                        "endColumn": 45,
+                        "endOffset": 148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 817,
+                    "endColumn": 42,
+                    "endOffset": 855
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 63,
+                        "endColumn": 39,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 860,
+                    "endLine": 24,
+                    "endColumn": 9,
+                    "endOffset": 1137
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/styles.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 380,
+                        "endLine": 16,
+                        "endColumn": 9,
+                        "endOffset": 661
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1142,
+                    "endLine": 27,
+                    "endColumn": 9,
+                    "endOffset": 1295
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 57,
+                        "endLine": 5,
+                        "endColumn": 9,
+                        "endOffset": 212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1300,
+                    "endLine": 31,
+                    "endColumn": 9,
+                    "endOffset": 1453
+                },
+                "from": {
+                    "file": "/home/dannykwon/AndroidStudioProjects/Painter/res/values/styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 1,
+                        "startOffset": 218,
+                        "endLine": 10,
+                        "endColumn": 9,
+                        "endOffset": 374
+                    }
+                }
+            }
+        ]
+    }
+]

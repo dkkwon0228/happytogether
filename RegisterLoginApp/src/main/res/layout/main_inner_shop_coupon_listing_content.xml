@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/viewBg"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                tools:context=".MainShopListingCoupon.CouponShopListingActivity"
+                tools:showIn="@layout/main_inner_shop_coupon_listing">
+
+
+  <com.astuetz.PagerSlidingTabStrip
+      android:id="@+id/tabs_openOrprivate"
+      android:layout_width="match_parent"
+      android:layout_height="38dp"
+      android:background="#ff8c20"
+      android:textColor="#ffffff"
+      app:pstsDividerColor="#FFFFFFFF"
+      app:pstsIndicatorColor="#ffad20"
+      app:pstsUnderlineColor="#ffad20"/>
+
+  <android.support.v4.view.ViewPager
+      android:id="@+id/pager_openOrprivate"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="38dp"
+      android:layout_marginBottom="0dp" android:foreground="#ffffff"/>
+
+
+
+</RelativeLayout>

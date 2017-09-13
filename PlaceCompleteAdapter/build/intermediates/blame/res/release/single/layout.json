@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/happytogether/PlaceCompleteAdapter/build/intermediates/res/merged/release/layout/place_autocomplete_item_powered_by_google.xml",
+        "source": "/home/dannykwon/AndroidStudioProjects/happytogether/PlaceCompleteAdapter/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/happytogether/PlaceCompleteAdapter/build/intermediates/res/merged/release/layout/place_autocomplete_item_prediction.xml",
+        "source": "/home/dannykwon/AndroidStudioProjects/happytogether/PlaceCompleteAdapter/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/happytogether/PlaceCompleteAdapter/build/intermediates/res/merged/release/layout/place_autocomplete_fragment.xml",
+        "source": "/home/dannykwon/AndroidStudioProjects/happytogether/PlaceCompleteAdapter/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/happytogether/PlaceCompleteAdapter/build/intermediates/res/merged/release/layout/activity_main.xml",
+        "source": "/home/dannykwon/AndroidStudioProjects/happytogether/PlaceCompleteAdapter/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/happytogether/PlaceCompleteAdapter/build/intermediates/res/merged/release/layout/place_autocomplete_progress.xml",
+        "source": "/home/dannykwon/AndroidStudioProjects/happytogether/PlaceCompleteAdapter/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_progress.xml"
+    }
+]

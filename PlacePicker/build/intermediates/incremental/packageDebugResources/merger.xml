@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res"/><source path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/common/res"/><source path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/template/res"/><source path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/build/generated/res/rs/debug"/><source path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/debug/res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res"><file path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values-sw720dp-land/dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values-v21/base-template-styles.xml" qualifiers="v21"><style name="Theme.Base" parent="android:Theme.Material.Light">
+    </style></file><file name="ic_launcher" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/mipmap-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="card_action_bg_positive" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable/card_action_bg_positive.xml" qualifiers="" type="drawable"/><file name="card_overlay_focused" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable/card_overlay_focused.xml" qualifiers="" type="drawable"/><file name="card_action_text_negative" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable/card_action_text_negative.xml" qualifiers="" type="drawable"/><file name="card_action_icon_positive" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable/card_action_icon_positive.xml" qualifiers="" type="drawable"/><file name="card_action_icon_neutral" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable/card_action_icon_neutral.xml" qualifiers="" type="drawable"/><file name="card_action_icon_negative" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable/card_action_icon_negative.xml" qualifiers="" type="drawable"/><file name="card_action_text_positive" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable/card_action_text_positive.xml" qualifiers="" type="drawable"/><file name="card_action_bg" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable/card_action_bg.xml" qualifiers="" type="drawable"/><file name="card_action_text" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable/card_action_text.xml" qualifiers="" type="drawable"/><file name="card_action_bg_negative" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable/card_action_bg_negative.xml" qualifiers="" type="drawable"/><file name="card_separator" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable/card_separator.xml" qualifiers="" type="drawable"/><file name="ic_action_cancel" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable-mdpi/ic_action_cancel.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_cardaction_positive_pressed" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable-xhdpi/ic_cardaction_positive_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_cardaction_neutral" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable-xhdpi/ic_cardaction_neutral.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_cardaction_negative_pressed" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable-xhdpi/ic_cardaction_negative_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_cardaction_negative" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable-xhdpi/ic_cardaction_negative.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_cardaction_positive" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable-xhdpi/ic_cardaction_positive.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_cardaction_neutral_pressed" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable-xhdpi/ic_cardaction_neutral_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="card_bg" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable-xhdpi/card_bg.9.png" qualifiers="xhdpi-v4" type="drawable"/><file path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values-v11/template-styles.xml" qualifiers="v11"><style name="Theme.Base" parent="android:Theme.Holo.Light"/></file><file path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values-v11/styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values-v14/styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file><file name="ic_launcher" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/mipmap-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_action_cancel" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable-hdpi/ic_action_cancel.png" qualifiers="hdpi-v4" type="drawable"/><file name="tile" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable-hdpi/tile.9.png" qualifiers="hdpi-v4" type="drawable"/><file path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values-v16/styles.xml" qualifiers="v16"><style name="CardTitle" parent="@style/CardTitleBase">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style><style name="CardContent" parent="@style/CardContentBase">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style></file><file name="activity_main" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/layout/activity_main.xml" qualifiers="" type="layout"/><file name="card_button_seperator" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/layout/card_button_seperator.xml" qualifiers="" type="layout"/><file name="card" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/layout/card.xml" qualifiers="" type="layout"/><file name="card_progress" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/layout/card_progress.xml" qualifiers="" type="layout"/><file name="card_google" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/layout/card_google.xml" qualifiers="" type="layout"/><file name="card_button_positive" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/layout/card_button_positive.xml" qualifiers="" type="layout"/><file name="cardstream" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/layout/cardstream.xml" qualifiers="" type="layout"/><file name="card_button_neutral" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/layout/card_button_neutral.xml" qualifiers="" type="layout"/><file name="card_button_negative" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/layout/card_button_negative.xml" qualifiers="" type="layout"/><file name="card_action_bg_positive" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable-v21/card_action_bg_positive.xml" qualifiers="v21" type="drawable"/><file name="card_action_bg" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable-v21/card_action_bg.xml" qualifiers="v21" type="drawable"/><file name="card_action_bg_negative" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable-v21/card_action_bg_negative.xml" qualifiers="v21" type="drawable"/><file name="ic_launcher" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/mipmap-hdpi/ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values/ids.xml" qualifiers=""><item name="card_actionarea" type="id"/><item name="card_title" type="id"/><item name="card_contentarea" type="id"/><item name="card_layout" type="id"/><item name="card_overlay" type="id"/><item name="card_content" type="id"/></file><file path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values/placepicker_strings.xml" qualifiers=""><string name="pick_action">Pick a place</string><string name="pick_title">Pick a place</string><string name="empty"/><string name="pick_text">Clicking below constructs an Intent to show the place picker dialog.
+\nIf a place was selected, its details are read from the returned data and shown in a separate card.
+</string><string name="intro_title">PlacePicker Sample</string><string name="detail_text">Place id: %1$s\nAddress: %2$s\nPhone: %3$s\n\n%4$s</string></file><file path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values/template-styles.xml" qualifiers=""><style name="Theme.Base" parent="android:Theme.Light"/><style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style><style name="AppTheme" parent="Theme.Sample"/><style name="Theme.Sample" parent="Theme.Base"/><style name="Widget"/><style name="Widget.SampleMessageTile">
+        <item name="android:background">@drawable/tile</item>
+        <item name="android:shadowColor">#7F000000</item>
+        <item name="android:shadowDy">-3.5</item>
+        <item name="android:shadowRadius">2</item>
+    </style></file><file path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values/template-dimens.xml" qualifiers=""><dimen name="margin_small">8dp</dimen><dimen name="vertical_page_margin">@dimen/margin_medium</dimen><dimen name="margin_tiny">4dp</dimen><dimen name="margin_large">32dp</dimen><dimen name="margin_huge">64dp</dimen><dimen name="margin_medium">16dp</dimen><dimen name="horizontal_page_margin">@dimen/margin_medium</dimen></file><file path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values/styles.xml" qualifiers=""><style name="CardContent" parent="@style/CardContentBase">
+    </style><style name="CardTitleBase" parent="@style/CardElement">
+        <item name="android:paddingTop">@dimen/card_padding</item>
+        <item name="android:textSize">@dimen/card_content_title</item>
+    </style><style name="CardActionPositive" parent="@style/CardAction">
+        <item name="android:background">@drawable/card_action_bg_positive</item>
+        <item name="android:drawableStart">@drawable/card_action_icon_positive</item>
+        <item name="android:textColor">@drawable/card_action_text_positive</item>
+    </style><style name="CardActionNegative" parent="@style/CardAction">
+        <item name="android:background">@drawable/card_action_bg_negative</item>
+        <item name="android:drawableStart">@drawable/card_action_icon_negative</item>
+        <item name="android:textColor">@drawable/card_action_text_negative</item>
+    </style><style name="Card">
+        <item name="android:background">@drawable/card_bg</item>
+        <item name="android:layout_margin">@dimen/card_margin</item>
+    </style><style name="CardActionNeutral" parent="@style/CardAction">
+        <item name="android:background">@drawable/card_action_bg</item>
+        <item name="android:drawableStart">@drawable/card_action_icon_neutral</item>
+        <item name="android:textColor">@drawable/card_action_text</item>
+    </style><style name="CardContentBase" parent="@style/CardElement">
+        <item name="android:paddingTop">@dimen/card_padding</item>
+        <item name="android:textSize">@dimen/card_content_text</item>
+        <item name="android:textColor">@color/card_content_textcolor</item>
+    </style><style name="CardAction">
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_marginTop">@dimen/card_action_margin</item>
+        <item name="android:layout_marginLeft">@dimen/card_action_margin</item>
+        <item name="android:layout_marginRight">@dimen/card_action_margin</item>
+        <item name="android:paddingLeft">@dimen/card_action_padding</item>
+        <item name="android:drawablePadding">@dimen/card_action_padding</item>
+    </style><style name="CardContentArea">
+        <item name="android:paddingBottom">@dimen/card_padding</item>
+    </style><style name="CardActionArea">
+        <item name="android:background">@color/card_action_bg</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/card_action_margin</item>
+    </style><style name="CardTitle" parent="@style/CardTitleBase">
+    </style><style name="CardStream">
+        <item name="android:paddingBottom">@dimen/card_stream_bottom_padding</item>
+        <item name="android:divider">@null</item>
+        <item name="android:orientation">vertical</item>
+    </style><style name="CardElement">
+        <item name="android:paddingLeft">@dimen/card_padding</item>
+        <item name="android:paddingRight">@dimen/card_padding</item>
+    </style><style name="CardProgressText" parent="@style/CardAction">
+        <item name="android:textColor">#77000000</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">0dp</item>
+    </style><style name="CardProgressLayout" parent="@style/CardAction">
+        <item name="android:layout_marginLeft">@dimen/card_action_margin</item>
+        <item name="android:layout_marginRight">@dimen/card_action_margin</item>
+        <item name="android:paddingLeft">@dimen/card_action_padding</item>
+        <item name="android:paddingRight">@dimen/card_action_padding</item>
+        <item name="android:background">#EEE</item>
+    </style></file><file path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values/base-strings.xml" qualifiers=""><string name="intro_message">
+        
+        
+            
+            This sample uses the PlacePicker.Builder to construct an Intent to launch the place
+            picker dialog. Users can select a place or add a new place,
+            which is then returned to the application.
+            
+            
+        
+        
+    </string><string name="app_name">PlacePicker</string></file><file path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="CardStream">
+        <attr format="enum" name="animationDuration">
+            <enum name="slow" value="1001"/>
+            <enum name="normal" value="1002"/>
+            <enum name="fast" value="1003"/>
+        </attr>
+        <attr format="string" name="animators"/>
+    </declare-styleable></file><file path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values/color.xml" qualifiers=""><color name="card_action_positive_focused">#FFE4F0AF</color><color name="card_action_positive_ripple">#CCA0CC00</color><color name="card_action_item_bg">#F4F4F4</color><color name="card_action_positive">#FFA0CC00</color><color name="card_action">#FF47B4EA</color><color name="card_action_negative_focused">#FFFBCBCA</color><color name="card_action_inverted">@android:color/white</color><color name="card_action_negative">#FFF64940</color><color name="card_content_textcolor">#444</color><color name="card_action_ripple">#CC47B4EA</color><color name="card_action_focused">#FFE3F4FC</color><color name="card_action_negative_ripple">#CCF64940</color><color name="card_action_bg">#DDD</color></file><file path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values/dimens.xml" qualifiers=""><dimen name="card_content_text">14sp</dimen><dimen name="card_content_title">24sp</dimen><dimen name="card_action_padding">8dp</dimen><dimen name="card_stream_bottom_padding">90dp</dimen><dimen name="card_action_margin">3dp</dimen><dimen name="card_padding">15dp</dimen><dimen name="card_margin">10dp</dimen></file><file name="ic_launcher" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/mipmap-xhdpi/ic_launcher.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/mipmap-xxxhdpi/ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_action_cancel" path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/drawable-xxhdpi/ic_action_cancel.png" qualifiers="xxhdpi-v4" type="drawable"/><file path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values-sw600dp/template-styles.xml" qualifiers="sw600dp-v13"><style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:shadowDy">-6.5</item>
+    </style></file><file path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/main/res/values-sw600dp/template-dimens.xml" qualifiers="sw600dp-v13"><dimen name="vertical_page_margin">@dimen/margin_medium</dimen><dimen name="horizontal_page_margin">@dimen/margin_huge</dimen></file></source><source path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/common/res"/><source path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/template/res"/><source path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/build/generated/res/rs/debug"/><source path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="/home/dannykwon/AndroidStudioProjects/happytogether/PlacePicker/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="CardStream"><attr format="enum" name="animationDuration"><enum name="slow" value="1001"/><enum name="normal" value="1002"/><enum name="fast" value="1003"/></attr><attr format="string" name="animators"/></declare-styleable></configuration></mergedItems></merger>

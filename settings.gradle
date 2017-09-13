@@ -1,0 +1,2 @@
+include ':RegisterLoginApp', ':gcm', ':rt', ':javalib'
+include ':opencv_java'

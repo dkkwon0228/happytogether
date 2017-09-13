@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016.
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~       http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".RegisterIdPassword.RegisterIdPasswordActivity">
+
+
+  <FrameLayout android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+      <android.support.design.widget.AppBarLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorRegisterBarBg"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+          <LinearLayout
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/toolbar_backIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/ic_keyboard_arrow_left_gray_24dp"/>
+
+            <TextView
+                android:id="@+id/toolbar_backString"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/action_back"
+                android:textColor="#a2a2a2"
+                android:textSize="16dp"/>
+          </LinearLayout>
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/regist_coupon"
+              android:layout_gravity="center"
+              android:id="@+id/toolbar_title"
+              android:textSize="20dp"
+              android:textStyle="bold"
+              android:textColor="#ffffff"/>
+
+        </android.support.v7.widget.Toolbar>
+
+      </android.support.design.widget.AppBarLayout>
+
+
+      <ScrollView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/scrollView"
+          android:layout_marginTop="56dp"
+          android:isScrollContainer="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+
+          <FrameLayout
+              android:layout_width="fill_parent"
+              android:layout_height="192dp"
+              android:layout_gravity="top"
+              android:background="#f1f1f1"
+              android:id="@+id/StcikerFrameLayout"
+              android:gravity="center_vertical|center_horizontal"
+              android:layout_marginLeft="4dp" android:layout_marginTop="4dp"
+              android:layout_marginRight="4dp" android:layout_marginBottom="4dp">
+
+            <!--
+                스크롤뷰에 포함되지 않은 버튼 레이아웃이
+                키보드가 팝업될때 말려 올라 가는 것을 방지 하기 위해
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                추가.
+             -->
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ivCouponImg"
+                android:src="@drawable/cover"
+                android:scaleType="fitXY"
+            />
+
+
+            <FrameLayout
+                android:id="@+id/canvasView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainShopRegisterCoupon.MainRegisterCouponShopStep1"
+                android:background="#00000000">
+
+
+            </FrameLayout>
+
+
+
+          </FrameLayout>
+
+
+
+          <LinearLayout
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:layout_below="@+id/StcikerFrameLayout"
+              android:id="@+id/onedpL"
+              android:background="#e7e7e7"/>
+
+          <LinearLayout
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/onedpL"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true"
+              android:id="@+id/linearLayout"
+              android:focusable="true" android:gravity="center_vertical"
+          >
+
+
+            <FrameLayout android:layout_width="match_parent"
+                         android:layout_height="match_parent">
+
+
+              <RelativeLayout android:layout_width="match_parent"
+                              android:layout_height="30dp" android:layout_marginRight="28dp"
+                              android:layout_gravity="right" android:gravity="right"
+                              android:layout_marginLeft="28dp" android:layout_marginTop="18dp">
+
+
+                <ToggleButton
+                    android:id="@+id/VisibleToggleButton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/sticker_help_visible"
+                    android:checked="false"
+                    android:textOn=""
+                    android:textOff=""
+                    android:text=""
+
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="36dp"/>
+
+
+
+                <ToggleButton
+                    android:id="@+id/LockToggleButton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/sticker_lock"
+                    android:checked="false"
+                    android:textOn=""
+                    android:textOff=""
+                    android:text=""
+                    android:layout_alignParentTop="true" android:layout_toLeftOf="@+id/sticker_bg"
+                    android:layout_toStartOf="@+id/sticker_bg"/>
+
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/sticker_bg"
+                    android:src="@drawable/ic_sticker_background"
+                    android:layout_alignParentTop="true" android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" android:layout_marginRight="30dp"/>
+
+              </RelativeLayout>
+            </FrameLayout>
+          </LinearLayout>
+
+
+
+          <android.support.design.widget.TextInputLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/linearLayout"
+              android:layout_centerHorizontal="true"
+              android:layout_marginLeft="28dp"
+              android:layout_marginRight="28dp"
+              android:id="@+id/id"
+              android:textColorHint="@color/colorHint" android:gravity="center_vertical"
+              android:layout_marginTop="20dp">
+            <AutoCompleteTextView
+                android:id="@+id/atctvRegisterCouponTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:hint="@string/prompt_couponTitle"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:imeOptions="actionDone"
+                android:maxLength="40" android:lines="2" android:text="신메뉴출시 30% SALE 이벤트!! 서두르세요~"
+                android:inputType="textMultiLine"/>
+          </android.support.design.widget.TextInputLayout>
+
+
+          <RelativeLayout android:layout_width="match_parent"
+                          android:layout_height="match_parent" android:id="@+id/iconsLL"
+                          android:layout_below="@+id/id" android:gravity="center_horizontal|right"
+                          android:layout_marginLeft="28dp"
+                          android:layout_alignRight="@+id/id" android:layout_alignEnd="@+id/id">
+
+            <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                       android:src="@drawable/ic_format_align_left" android:id="@+id/icAlignLeft"
+                       android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+                       android:layout_alignParentStart="true"/>
+
+            <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                       android:src="@drawable/ic_format_align_center" android:id="@+id/icAlignCenter"
+                       android:layout_alignParentTop="true"
+                       android:layout_toRightOf="@+id/icAlignLeft"
+                       android:layout_toEndOf="@+id/icAlignLeft" android:layout_marginLeft="8dp"/>
+
+            <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                       android:src="@drawable/ic_format_align_right" android:id="@+id/icAlignRight"
+                       android:layout_alignParentTop="true"
+                       android:layout_toRightOf="@+id/icAlignCenter"
+                       android:layout_toEndOf="@+id/icAlignCenter" android:layout_marginLeft="8dp"/>
+
+
+            <ImageView android:layout_width="30dp" android:layout_height="30dp"
+                       android:src="@drawable/ic_border_color" android:id="@+id/icFontBorderColor"
+                       android:layout_alignParentTop="true" android:layout_toLeftOf="@+id/icFontBorder"
+                       android:layout_toStartOf="@+id/icFontBorder" android:layout_marginRight="8dp"/>
+
+
+            <ImageView android:layout_width="30dp" android:layout_height="30dp"
+                       android:src="@drawable/ic_border_outer" android:id="@+id/icFontBorder"
+                       android:layout_alignParentTop="true" android:layout_toLeftOf="@+id/icFontSize"
+                       android:layout_toStartOf="@+id/icFontSize" android:layout_marginRight="8dp"/>
+
+            <ImageView android:layout_width="30dp" android:layout_height="30dp"
+                       android:src="@drawable/sticker_fontsize" android:id="@+id/icFontSize"
+                       android:layout_alignParentTop="true" android:layout_toLeftOf="@+id/icFontTexture"
+                       android:layout_toStartOf="@+id/icFontTexture" android:layout_marginRight="8dp"/>
+
+            <ImageView android:layout_width="30dp" android:layout_height="30dp"
+                       android:src="@drawable/ic_texture" android:id="@+id/icFontTexture"
+                       android:layout_alignParentTop="true" android:layout_toLeftOf="@+id/icFontColor"
+                       android:layout_toStartOf="@+id/icFontColor" android:layout_marginRight="8dp"/>
+
+
+            <ImageView android:layout_width="30dp" android:layout_height="30dp"
+                       android:src="@drawable/sticker_fontcolor" android:id="@+id/icFontColor"
+                       android:layout_alignParentTop="true" android:layout_toLeftOf="@+id/icFontFormat"
+                       android:layout_toStartOf="@+id/icFontFormat" android:layout_marginRight="8dp"/>
+
+            <ImageView android:layout_width="30dp" android:layout_height="30dp"
+                       android:src="@drawable/sticker_fontformat"
+                       android:id="@+id/icFontFormat"
+                       android:layout_alignParentTop="true"
+                       android:layout_alignParentRight="true" android:layout_alignParentEnd="false"/>
+
+          </RelativeLayout>
+
+
+          <!--
+              AutoCompleteTextView hint Color 해당뷰가 아니라
+              부모뷰에서 정의해야 한다.
+          -->
+
+
+          <FrameLayout android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:layout_below="@+id/iconsLL"
+                       android:id="@+id/view0000">
+
+
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/couponEndDate_select_spinner"
+                android:spinnerMode="dropdown"
+                android:scrollbars="vertical"
+                android:textSize="24sp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginTop="20dp"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:textColorHint="#bababa"
+                android:id="@+id/view4">
+              <EditText
+                  android:id="@+id/etRegisterCouponEndDate"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:hint="@string/prompt_couponEndDate"
+                  android:textSize="16dp"
+                  android:inputType="text"
+                  android:maxLength="20"
+                  android:imeOptions="actionDone"
+                  android:focusable="false"/>
+            </android.support.design.widget.TextInputLayout>
+
+          </FrameLayout>
+
+
+
+          <FrameLayout android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:layout_below="@+id/view0000">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/couponNotice_select_spinner"
+                android:spinnerMode="dropdown"
+                android:scrollbars="vertical"
+                android:textSize="24sp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginTop="20dp"/>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/view3"
+                android:textColorHint="@color/colorHint">
+              <EditText
+                  android:id="@+id/etRegisterCouponNotice"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:hint="@string/prompt_couponNotice"
+                  android:textSize="16dp"
+                  android:imeOptions="actionNext"
+                  android:inputType="text"
+                  android:maxLength="100"
+                  android:layout_above="@+id/view3"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginBottom="0dp"
+                  android:layout_marginLeft="28dp"
+                  android:layout_marginRight="28dp"
+
+                  android:focusable="false"
+              />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/view3_2"
+                android:textColorHint="@color/colorHint"
+                android:layout_marginTop="34dp"
+                android:layout_marginLeft="28dp" android:layout_marginRight="28dp">
+
+              <EditText android:id="@+id/etCouponNoticeMultiLines"
+
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+
+                        android:inputType="textMultiLine"
+
+                        android:gravity="top|left"
+                        android:maxLines="6" android:textSize="10dp"/>
+
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+
+
+
+          </FrameLayout>
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+      </ScrollView>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="55dp"
+          android:orientation="vertical"
+          android:layout_alignParentBottom="true"
+          android:layout_marginLeft="28dp"
+          android:layout_marginRight="28dp" android:layout_marginBottom="8dp"
+          android:nestedScrollingEnabled="true">
+
+        <Button
+            android:id="@+id/btnRegCouponShop"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:text="@string/action_next"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:theme="@style/MyButton"/>
+      </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/sticker_menu_down"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="252dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:elevation="1dp"
+
+        fab:menu_icon="@drawable/ic_add_a_photo"
+        fab:menu_animationDelayPerItem="0"
+        fab:menu_colorNormal="#43A047"
+        fab:menu_colorPressed="#2E7D32"
+        fab:menu_colorRipple="#1B5E20"
+
+
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true"
+        fab:menu_fab_size="mini"
+        fab:menu_openDirection="down"
+        fab:menu_labels_position="right"
+        fab:menu_backgroundColor="#ccffffff">
+
+      <com.github.clans.fab.FloatingActionButton
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:src="@drawable/ic_small_camera"
+          fab:fab_size="mini"
+          fab:fab_label="임시저장"
+          android:id="@+id/fabTempSave"/>
+
+
+      <com.github.clans.fab.FloatingActionButton
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:src="@drawable/ic_small_camera"
+          fab:fab_size="mini"
+          fab:fab_label="카메라"
+          android:id="@+id/fabCamera"/>
+
+      <com.github.clans.fab.FloatingActionButton
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:src="@drawable/ic_small_photo"
+          fab:fab_size="mini"
+          fab:fab_label="사진 갤러리"
+          android:id="@+id/fabPhotoAlbum"/>
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/backgroud_menu_down"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="252dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:elevation="1dp"
+
+        fab:menu_icon="@drawable/ic_small_photo"
+        fab:menu_animationDelayPerItem="0"
+        fab:menu_colorNormal="#ff78b7"
+        fab:menu_colorPressed="#df2aa9"
+        fab:menu_colorRipple="#9b0448"
+
+
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true"
+        fab:menu_fab_size="mini"
+        fab:menu_openDirection="down"
+        fab:menu_labels_position="left"
+        fab:menu_backgroundColor="#ccffffff">
+
+      <com.github.clans.fab.FloatingActionButton
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:src="@drawable/ic_small_camera"
+          fab:fab_size="mini"
+          fab:fab_label="배경화면 모음"
+          android:id="@+id/background_fabBackground"/>
+
+
+      <com.github.clans.fab.FloatingActionButton
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:src="@drawable/ic_small_camera"
+          fab:fab_size="mini"
+          fab:fab_label="카메라"
+          android:id="@+id/background_fabCamera"/>
+
+      <com.github.clans.fab.FloatingActionButton
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:src="@drawable/ic_small_photo"
+          fab:fab_size="mini"
+          fab:fab_label="사진 갤러리"
+          android:id="@+id/background_fabPhotoAlbum"/>
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+    <RelativeLayout
+        android:id="@+id/textEditTextLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="60dp"
+        android:background="#ffffff"
+        android:visibility="invisible" >
+
+      <LinearLayout
+          android:id="@+id/textSubBottons"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:background="#FFFFFFFF"
+          android:baselineAligned="true"
+          android:paddingBottom="5dp"
+          android:visibility="visible" >
+
+        <Button
+            android:id="@+id/textSubKeyboard"
+            style="@style/ButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/btn_blue"
+            android:text="키보드"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+        />
+
+        <Button
+            android:id="@+id/textSubFont"
+            style="@style/ButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/btn_blue"
+            android:text="글꼴"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+        />
+
+        <Button
+            android:id="@+id/textSubColor"
+            style="@style/ButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/btn_blue"
+            android:text="색상/크기"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+        />
+
+
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/subMenuKeyBoard"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/keyboard_height"
+          android:background="@android:color/transparent"
+          android:orientation="vertical"
+          android:visibility="gone" />
+
+      <LinearLayout
+          android:id="@+id/subMenuFontsFormat"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/keyboard_height"
+          android:background="@android:color/transparent"
+          android:orientation="vertical"
+          android:visibility="gone" />
+
+      <LinearLayout
+          android:id="@+id/subMenuFontsTexture"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/keyboard_height"
+          android:background="@android:color/transparent"
+          android:orientation="vertical"
+          android:visibility="gone" />
+
+      <LinearLayout
+          android:id="@+id/subMenuFontSize"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/keyboard_height"
+          android:background="@android:color/transparent"
+          android:orientation="vertical"
+          android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="183dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="300dp">
+
+      <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x" android:layout_marginLeft="8dp" android:id="@+id/objX"/>
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="y"
+                android:id="@+id/objY"
+                android:layout_alignParentTop="true" android:layout_toRightOf="@+id/objX"
+                android:layout_toEndOf="@+id/objX" android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"/>
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="W"
+                android:id="@+id/objW"
+                android:layout_alignParentTop="true" android:layout_toLeftOf="@+id/objH"
+                android:layout_toStartOf="@+id/objH" android:layout_marginRight="126dp"
+                android:layout_marginEnd="126dp"/>
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="D"
+                android:id="@+id/objH"
+                android:layout_alignParentTop="true" android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="drawable"
+                android:id="@+id/objDrawable" android:layout_below="@+id/objX"
+                android:layout_alignLeft="@+id/objX" android:layout_alignStart="@+id/objX"/>
+
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="그림자색상"
+                android:id="@+id/fontShadowColor"
+                android:layout_below="@+id/objDrawable" android:layout_alignLeft="@+id/objDrawable"
+                android:layout_alignStart="@+id/objDrawable"/>
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="그림자색상크기"
+                android:id="@+id/fontShadowColorSize"
+                android:layout_alignTop="@+id/fontShadowColor" android:layout_toRightOf="@+id/fontShadowColor"
+                android:layout_toEndOf="@+id/fontShadowColor" android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"/>
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="그림자중앙정렬여부"
+                android:id="@+id/fontShadowCenter"
+                android:layout_marginLeft="28dp"
+                android:layout_marginStart="28dp"
+                android:layout_alignTop="@+id/fontShadowColorSize"
+                android:layout_toRightOf="@+id/fontShadowColorSize"
+                android:layout_toEndOf="@+id/fontShadowColorSize"/>
+
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="텍스트색상"
+                android:id="@+id/textColor"
+                android:layout_below="@+id/fontShadowColor"
+                android:layout_alignLeft="@+id/fontShadowColor"
+                android:layout_alignStart="@+id/fontShadowColor"/>
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="텍스트크기"
+                android:id="@+id/textColorSize"
+                android:layout_below="@+id/fontShadowColorSize"
+                android:layout_alignLeft="@+id/fontShadowColorSize"
+                android:layout_alignStart="@+id/fontShadowColorSize"/>
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="텍스트종류"
+                android:id="@+id/textFormat"
+                android:layout_below="@+id/fontShadowCenter"
+                android:layout_alignLeft="@+id/fontShadowCenter"
+                android:layout_alignStart="@+id/fontShadowCenter"/>
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="텍스트패턴"
+                android:id="@+id/textPattern"
+                android:layout_below="@+id/textColor" android:layout_alignLeft="@+id/textColor"
+                android:layout_alignStart="@+id/textColor"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+  </FrameLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

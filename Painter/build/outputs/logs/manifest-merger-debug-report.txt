@@ -1,0 +1,57 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:1:1-36:12
+	package
+		ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:2:2-26
+	android:versionName
+		ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:4:2-27
+		INJECTED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml
+		INJECTED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:3:2-25
+		INJECTED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml
+		INJECTED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:1:11-69
+uses-sdk
+ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:7:2-10:5
+	android:targetSdkVersion
+		ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:9:3-32
+	android:minSdkVersion
+		ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:8:3-29
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:12:2-78
+	android:name
+		ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:12:19-75
+application
+ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:14:2-34:16
+	android:label
+		ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:18:3-35
+	android:hardwareAccelerated
+		ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:16:3-37
+	android:allowBackup
+		ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:15:3-29
+	android:icon
+		ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:17:3-39
+	android:theme
+		ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:19:3-34
+activity#com.dd.painter.PlayActivity
+ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:22:3-32:14
+	android:label
+		ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:25:4-36
+	android:uiOptions
+		ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:26:4-48
+	android:theme
+		ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:24:4-46
+	android:name
+		ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:23:4-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:28:4-31:20
+action#android.intent.action.MAIN
+ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:29:5-59
+	android:name
+		ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:29:15-56
+category#android.intent.category.LAUNCHER
+ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:30:5-65
+	android:name
+		ADDED from /home/dannykwon/AndroidStudioProjects/Painter/AndroidManifest.xml:30:15-62

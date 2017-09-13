@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/android-play-places-master/PlaceCompleteAdapter/Application/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/home/dannykwon/AndroidStudioProjects/android-play-places-master/PlaceCompleteAdapter/Application/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/happytogether/PlaceCompleteAdapter/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/home/dannykwon/AndroidStudioProjects/happytogether/PlaceCompleteAdapter/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]

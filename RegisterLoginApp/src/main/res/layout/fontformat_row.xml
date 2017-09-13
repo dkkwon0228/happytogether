@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/frameXXX"
+             android:layout_width="fill_parent"
+             android:layout_height="80dp"
+             android:background="#000000">
+
+  <RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="60dp"
+      android:layout_gravity="top"
+      android:background="#ffffff"
+      android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/fontName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+  </RelativeLayout>
+</FrameLayout>

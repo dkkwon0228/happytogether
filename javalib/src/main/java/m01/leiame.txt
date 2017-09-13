@@ -1,0 +1,14 @@
+2008mar18
+
+Módulos do casamento para segmentacao (demos 1 e 2).
+
+
+    Modulos 01: casamento como problema de segmentacao de imagens
+        .Cost1.java: funcao custo estendida para custo dos vertices como distancia de RGB
+        .DeformationGraph1.java: inclui informacao de cores RGB para cada regiao
+        .GraphMatch1.java: algoritmo de casamento para incluir info RGB
+        .InputGraph1.java: grafo de entrada; inclui todas as regioes do watershed
+        .ModelGraph1.java: grafo modelo; inclui somente as regioes tracadas pelo usuario
+
+
+--

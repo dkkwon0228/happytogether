@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_cancel.png",
+        "source": "/home/dannykwon/AndroidStudioProjects/Painter/res/drawable-xhdpi/ic_action_cancel.png"
+    },
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_brush.png",
+        "source": "/home/dannykwon/AndroidStudioProjects/Painter/res/drawable-xhdpi/ic_action_brush.png"
+    },
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_undo.png",
+        "source": "/home/dannykwon/AndroidStudioProjects/Painter/res/drawable-xhdpi/ic_action_undo.png"
+    },
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/home/dannykwon/AndroidStudioProjects/Painter/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_paint_splot.png",
+        "source": "/home/dannykwon/AndroidStudioProjects/Painter/res/drawable-xhdpi/ic_paint_splot.png"
+    },
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_save.png",
+        "source": "/home/dannykwon/AndroidStudioProjects/Painter/res/drawable-xhdpi/ic_action_save.png"
+    },
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_redo.png",
+        "source": "/home/dannykwon/AndroidStudioProjects/Painter/res/drawable-xhdpi/ic_action_redo.png"
+    },
+    {
+        "merged": "/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_eraser.png",
+        "source": "/home/dannykwon/AndroidStudioProjects/Painter/res/drawable-xhdpi/ic_action_eraser.png"
+    }
+]

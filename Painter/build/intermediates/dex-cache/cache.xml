@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="4e5f5cdc8381630ba03e466bf6622654a7681b13">
+        <dex dex="/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_41fa4fa29b9bb554e9380c4340db44a5da63dcdb/classes.dex" />
+    </item>
+    <item
+        jar="/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="28c6fe1b8a13b26c6750daa70775080a87088714">
+        <dex dex="/home/dannykwon/AndroidStudioProjects/Painter/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_beef30e7ee2559ca20f44736f0aacec119efe1c1/classes.dex" />
+    </item>
+
+</items>

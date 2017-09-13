@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxxhdpi"
+    format="7"
+    timestamp="189490238075006"
+    token="-1816713251772519696" >
+
+    <task
+        name="javac"
+        duration="368" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="59" />
+    <task
+        name="verifier"
+        duration="2" />
+
+    <artifact
+        location="/home/dannykwon/AndroidStudioProjects/Painter/build/outputs/apk/Painter-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="189490238075006" >
+        <artifact
+            location="/home/dannykwon/AndroidStudioProjects/Painter/build/outputs/apk/Painter-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

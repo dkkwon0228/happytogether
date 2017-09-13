@@ -1,0 +1,291 @@
+<!--
+  ~ Copyright (c) 2016.
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~       http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+  <string name="app_name">햇빛두개더</string>
+
+  <!-- Strings related to login -->
+  <string name="prompt_shopname">상호명 직접입력</string>
+  <string name="prompt_id">햇빛두개더 아이디</string>
+  <string name="prompt_password">비밀번호(8자이상 영문숫자)</string>
+  <string name="prompt_re_password">비밀번호 재입력</string>
+  <string name="prompt_email">이메일 아이디</string>
+  <string name="prompt_email_account">이메일 계정 선택</string>
+  <string name="prompt_custom_email_account">직접 입력해 주세요(google.com 형식)</string>
+  <string name="prompt_business_area">업종 선택</string>
+  <string name="prompt_business_license_num">사업자 등록번호</string>
+  <string name="prompt_search_address">동이름이나 건물이름으로 검색</string>
+  <string name="prompt_address">정확한 주소로 검색해 주시길 바랍니다</string>
+  <string name="prompt_detailaddress">나머지 상세주소</string>
+
+  <string name="titile_email_account_dialog">이메일 계정을 선택하세요</string>
+  <string name="titile_business_area_dialog">업종을 선택해 주세요</string>
+  <string name="titile_search_address_dialog">주소을 선택해 주세요</string>
+  <string name="action_next">다음</string>
+  <string name="action_done">완료</string>
+  <string name="action_sign_in">Sign in or register</string>
+  <string name="action_sign_in_short">Sign in</string>
+
+  <string name="titile_shop_coupon_dialog">오늘쿠폰 받은 사람</string>
+  <string name="titile_coupon_notice_dialog">쿠폰 사용조건을 선택하세요</string>
+
+
+
+  <string name="error_id_exist">이미 사용중인 아이디가 있습니다</string>
+  <string name="error_empty_shop_phonenumber">등록된 전화번호가 없습니다.</string>
+
+  <string name="error_invalid_email">This email address is invalid</string>
+  <string name="error_invalid_emailtype">유효하지 않은 이메일 형식입니다</string>
+  <string name="error_invalid_password">8자 이상 입력해 주시길 바랍니다</string>
+  <string name="error_short_length">이메일을 입력해 주세요</string>
+  <string name="error_search_short_length">2자 이상 검색 가능합니다</string>
+  <string name="error_long_length">20자 이내로 입력해 주시길 바랍니다</string>
+  <string name="error_incorrect_password">비밀번호가 일치하지 않습니다</string>
+  <string name="error_field_required">필수입력사항입니다.</string>
+  <string name="error_field_business_area_required">업종분류를 해 주세요.</string>
+  <string name="error_field_address_required">주소를 검색해 주시거나 입력해 주세요</string>
+  <string name="error_field_detail_address_required">나머지 상세주소를 입력해 주세요</string>
+  <string name="error_network_problem">네트워크 연결상태에 문제가 있습니다. 연결상태를 확인해 주세요</string>
+  <string name="temp_email_account">happytogether</string>
+  <string name="permission_rationale">"Contacts permissions are needed for providing email
+    completions."
+  </string>
+
+
+  <string name="title_empty_shopphonenumber">가게 전화번호 확인</string>
+  <string name="ment_empty_shopphonenumber">등록된 전화번호가 없는 경우 가게 주인님 인증을 할 수 없으므로 가게 전화번호 등록을 요청해 주시길 바랍니다.</string>
+
+  <string name="action_require_auth_phone">전화번호 미확인 상태</string>
+  <string name="ment_require_auth_phone">어이쿠! 가게 전화번호와 일치하지 않네요!!</string>
+
+  <string name="action_done_auth_phone">등록완료</string>
+  <string name="ment_done_auth_phone">가게 전화번호가 확인되었습니다</string>
+
+
+
+
+
+  <string name="selected_place">Last Selected Place:</string>
+  <string name="clear_text">Clear Text</string>
+
+  <!-- getString(String, Object...) does not support HTML tags directly, they need to be encoded first.
+  Original string: <b>%1$s</b><br/><i>Place Id: %2$s</i><br/>Address: %3$s<br/>Phone: %4$s<br/>Website: %5$s-->
+  <string name="place_details">&lt;b&gt;%1$s&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Place Id: %2$s&lt;/i&gt;&lt;br/&gt;Address: %3$s&lt;br/&gt;Phone: %4$s&lt;br/&gt;Website: %5$s</string>
+
+
+
+  <string name="regMent1_1">내주변의 쿠폰정보를 꼼꼼히 챙겨보세요!</string>
+  <string name="regMent1_2">가게홍보와 쿠폰발행을 손쉽게 해 보세요!</string>
+  <string name="regMent2_1">가게를 운영하시나요?</string>
+  <string name="regMent2_2">간단한 정보입력을 하셔서...</string>
+  <string name="regMent2_3">정확힌 이메일을 깅비....</string>
+
+  <string name="ment_select_go_shopname">가게를 운영하시나요?</string>
+  <string name="ment_select_go_shopname2">가게 추가 정보를 입력하셔서 가게홍보와 쿠폰발행을 적극적으로 해 보십시오</string>
+  <string name="regist_mem_done">회원가입 완료</string>
+  <string name="go_regist_shopname">상점정보 등록</string>
+
+
+  <string name="regMent3_1">가게를 운영하시나요?</string>
+  <string name="regMent3_2">간단한 정보입력을 하셔서...</string>
+  <string name="regMent3_3">상호명과 주소는 동이름 상호명, 동이름 번지수 형식으로 검색 할 수 있습니다  221-82-10213</string>
+  <string name="regMent4_1">가게를 운영하시나요?</string>
+  <string name="regMent4_2">간단한 정보입력을 하셔서...</string>
+  <string name="regMent4_3">주소를 정확히....</string>
+
+
+
+  <string name="regMent_Confirm_ShopPhoneNumber"><b>등록된 가게 전화에서 사용 중인 폰으로 전화를 걸어 주십시오.</b> </string>
+  <string name="regMent_Confirm_ShopPhoneNumber2">수신번호와 가게 전화번호가 일치할 경우 가게 주인님(사업주)으로 인증을 받게 됩니다. </string>
+  <string name="regMent_Confirm_ShopPhoneNumber3">푸시메시지 전송, 쿠폰 발행등 완전한 서비스를 이용하실 경우 사업자 등록증 확인의 2차 인증이 필요합니다.</string>
+  <string name="regMent_Confirm_ShopPhoneNumber4"><u>발신번호조작이나 가게 주인님(사업주)의 동의를 받지 않는 허위 인증은 허용되지 않는 답니다.</u></string>
+
+  <string name="action_setting">셋팅</string>
+  <string name="action_back">뒤로</string>
+  <string name="mem_regist">회원가입</string>
+  <string name="at_Email">AT</string>
+
+
+  <string name="prompt_search_mylocation">내 동네이름을 찾아 주세요</string>
+  <string name="prompt_search_shopname">내 가게이름을 찾아 주세요</string>
+  <string name="prompt_search_mylocationInfo">내 동네이름</string>
+  <string name="prompt_search_shoplocation">내 가게 동네이름을 찾아 주세요</string>
+  <string name="gcmserver_register_error">GCM 서버가 에러입니다</string>
+
+  <!-- 카드뷰 -->
+  <string name="action_settings">Settings</string>
+  <string name="action_open">공개</string>
+  <string name="action_remove">삭제</string>
+  <string name="backdrop_title">등록된 쿠폰입니다</string>
+  <string name="backdrop_subtitle">총 10개의 쿠폰이 등록 가능합니다.</string>
+
+
+  <string name="regist_coupon">쿠폰 등록</string>
+  <string name="prompt_couponTitle">쿠폰 제목 (신규 오픈 할인 이벤트)</string>
+  <string name="prompt_couponNotice">쿠폰 사용 조건</string>
+  <string name="prompt_couponEndDate">쿠폰 사용 마감일 </string>
+
+  <string name="prompt_couponNormalPrice">정상가격 (선택)</string>
+  <string name="prompt_couponSalePrice">쿠폰 적용가격 (선택)</string>
+  <string name="prompt_couponDescrition">쿠폰 사용 유의사항 (선택)</string>
+
+  <string name="register_coupon_nowopen">즉시공개</string>
+  <string name="register_coupon_private">임시보관</string>
+
+
+  // GrabCut2
+  <string name="menu_open">Open Image</string>
+  <string name="menu_select">Select target</string>
+  <string name="menu_cut">Process Image</string>
+
+
+  // Paiter
+  <string name="saving">Saving…</string>
+  <string name="saved_as">Saved As:\n</string>
+
+
+
+  <string-array name="array_email_account">
+    <item>naver.com</item>
+    <item>daum.net</item>
+    <item>nate.com</item>
+    <item>google.com</item>
+    <item>apple.com</item>
+    <item>yahoo.com</item>
+    <item>직접입력</item>
+  </string-array>
+
+
+  <string-array name="array_coupon_notice">
+    <item>전 매장 사용 가능</item>
+    <item>일행당 1매 사용 가능</item>
+    <item>단품 상품, 메뉴에 한함</item>
+    <item>타 쿠폰 및 타 행사 중복 불가</item>
+    <item>다른 상품, 메뉴로 변경 불가</item>
+  </string-array>
+
+
+  <string-array name="array_business_area0">
+    <item>@array/array_business_area01</item>
+    <item>@array/array_business_area02</item>
+    <item>@array/array_business_area03</item>
+    <item>@array/array_business_area04</item>
+    <item>@array/array_business_area05</item>
+    <item>@array/array_business_area06</item>
+    <item>@array/array_business_area07</item>
+    <item>@array/array_business_area08</item>
+    <item>@array/array_business_area09</item>
+    <item>@array/array_business_area10</item>
+  </string-array>
+
+  <string-array name="array_business_area01">
+    <item>음식점</item>
+    <item>한식</item>
+    <item>일식</item>
+    <item>중식</item>
+    <item>양식</item>
+    <item>고깃집</item>
+    <item>양식</item>
+    <item>분식집</item>
+    <item>횟집</item>
+  </string-array>
+
+  <string-array name="array_business_area02">
+    <item>외식/야식</item>
+    <item>피자가게</item>
+    <item>치킨집</item>
+    <item>빵집</item>
+    <item>양식</item>
+  </string-array>
+
+  <string-array name="array_business_area03">
+    <item>건강/운동</item>
+    <item>약국</item>
+    <item>한의원</item>
+    <item>헬스클럽</item>
+    <item>요가</item>
+    <item>찜질방</item>
+  </string-array>
+
+  <string-array name="array_business_area04">
+    <item>뷰티/미용</item>
+    <item>헤어샵</item>
+    <item>화장품 가게</item>
+    <item>네일샵</item>
+    <item>피부관리샵</item>
+    <item>마사지샵</item>
+  </string-array>
+
+  <string-array name="array_business_area05">
+    <item>교육/학원</item>
+    <item>국영수학원</item>
+    <item>음악학원</item>
+    <item>태권도학원</item>
+    <item>미술학원</item>
+  </string-array>
+
+  <string-array name="array_business_area06">
+    <item>패션</item>
+    <item>옷가게</item>
+    <item>신발가게</item>
+    <item>가방가게</item>
+    <item>유아의류</item>
+  </string-array>
+
+  <string-array name="array_business_area07">
+    <item>아웃도어/둥산</item>
+    <item>등산용품</item>
+    <item>골프용품</item>
+    <item>스포츠의류/운동화</item>
+    <item>자전거</item>
+  </string-array>
+
+  <string-array name="array_business_area08">
+    <item>생활편의</item>
+    <item>꽃가게</item>
+    <item>잡화수퍼마켓</item>
+    <item>가구점</item>
+    <item>핸드폰가게</item>
+    <item>부동산</item>
+    <item>세탁가게</item>
+    <item>컴퓨터수리</item>
+    <item>자동차정비</item>
+    <item>등산용품</item>
+    <item>금은방</item>
+    <item>과일가게</item>
+    <item>문방구</item>
+    <item>세탁소</item>
+  </string-array>
+
+  <string-array name="array_business_area09">
+    <item>애완동물</item>
+    <item>동물병원</item>
+    <item>애견샵</item>
+  </string-array>
+
+  <string-array name="array_business_area10">
+    <item>여가/유흥</item>
+    <item>맥주집</item>
+    <item>소주주점</item>
+    <item>커피샵</item>
+    <item>피시방</item>
+    <item>스크린골프</item>
+    <item>당구장</item>
+    <item>모텔</item>
+    <item>노래방</item>
+  </string-array>
+
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016.
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~       http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+  <color name="colorPrimary">#3f51b5</color>
+  <color name="colorPrimaryDark">#303F9F</color>
+  <color name="colorPrimaryDark_Reg">#060606</color>
+  <color name="colorPrimaryDark_Splash">#ffffac</color>
+  <color name="colorAccent">#586cda</color>
+  <color name="colorControlNormal">#dcdcdc</color>
+  <color name="colorRegisterBarBg">#333333</color>
+  <color name="colorHint">#c4c4c4</color>
+  <color name="colorInfoMessage">#737272</color>
+
+
+  <color name="colorMainButton">#3f51b5</color>
+  <color name="colorMainButtonPressed">#919fea</color>
+
+  <color name="colorShopButton">#f56f1b</color>
+  <color name="colorShopButtonPressed">#dfc98e</color>
+
+  // 리스트뷰 more
+  <color name="dark_slate_gray">#005fc4</color>
+  <color name="gray_2">#e9e9e9</color>
+  <color name="gray_1">#e6e6e6</color>
+  <color name="black">#ffffff</color>
+
+
+  // Card View
+  <color name="viewBg">#f1f5f8</color>
+  <color name="album_title">#4c4c4c</color>
+
+  // Painter
+  <color name="ab_color">#ffffff</color>
+  <color name="brush_panel_bg">#66414141</color>
+
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="100dip">
+
+  <ImageView
+      android:id="@+id/image"
+      android:layout_width="100dip"
+      android:layout_height="100dip"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="20dp"
+      android:adjustViewBounds="true" />
+
+  <ProgressBar
+      android:id="@+id/progress"
+      android:layout_width="30dip"
+      android:layout_height="30dip"
+      android:indeterminate="false"
+      android:max="100"
+      android:layout_marginTop="35dp"
+      android:layout_gravity="center_horizontal"/>
+</FrameLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/dannykwon/AndroidStudioProjects/happytogether/PlaceCompleteAdapter/src/main/assets"/><source path="/home/dannykwon/AndroidStudioProjects/happytogether/PlaceCompleteAdapter/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/dannykwon/AndroidStudioProjects/happytogether/PlaceCompleteAdapter/src/debug/assets"/></dataSet></merger>
