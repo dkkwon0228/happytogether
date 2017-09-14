@@ -65,7 +65,7 @@ public class EnterAppActivity extends AppCompatActivity {
     내부디비(SQLITE)의 adminkey_tb의 row값을 가져와서 count에 할당.
     어드민키를 획득함
     TABLE_ADMINKEY = "adminkey_tb
-    adminkey_tb의 row에  값이 있을 경우에 1, 없을 경우엔 0을 리턴...
+    adminkey_tb의 row에  값이 있을 경우에 1, 없을 경우엔 0을 리턴....
     2016/10/04
     */
     handlerDatabase = new DatabaseHandler(this);
